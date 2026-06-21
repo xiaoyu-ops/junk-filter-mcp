@@ -1,0 +1,7 @@
+mcp_servers:
+  junk-filter:
+    command: /opt/junk-filter-mcp/venv/bin/python
+    args:
+      - server.py
+    workdir: /opt/junk-filter-mcp
+    enabled: true
